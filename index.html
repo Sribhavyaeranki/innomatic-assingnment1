@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Directory Portal(Assignment2)</title>
+    <title>Employee Directory System</title>
     <link rel="stylesheet" href="assignment2.css">
 </head>
 <body>
     <div class="container">
-        <h1>Company Directory Portal</h1>
+        <h1>Employee Directory System</h1>
 
+        <!-- Employee Registration Form -->
         <section class="form-section">
-            <h2>Employee Registration Form</h2>
-            <form id="employeeForm">
+            <h2>Register New Employee</h2>
+            <form id="employeeRegistrationForm">
                 <div class="form-group">
-                    <label for="fullName">Full Name:</label>
-                    <input type="text" id="fullName" name="fullName" required>
+                    <label for="employeeName">Full Name:</label>
+                    <input type="text" id="employeeName" name="employeeName" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="employeeEmail">Email Address:</label>
+                    <input type="email" id="employeeEmail" name="employeeEmail" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="department">Department:</label>
-                    <select id="department" name="department" required>
+                    <label for="departmentSelect">Department:</label>
+                    <select id="departmentSelect" name="departmentSelect" required>
                         <option value="IT">IT</option>
                         <option value="HR">HR</option>
                         <option value="Finance">Finance</option>
@@ -39,28 +40,30 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="profilePic">Profile Picture URL:</label>
-                    <input type="url" id="profilePic" name="profilePic" required>
+                    <label for="profilePictureUrl">Profile Picture URL:</label>
+                    <input type="url" id="profilePictureUrl" name="profilePictureUrl" required>
                 </div>
 
-                <button type="submit">Register Employee</button>
+                <button type="submit">Add Employee</button>
             </form>
         </section>
 
+        <!-- Employee List -->
         <section class="list-section">
-            <h2>Employee List</h2>
-            <ol id="employeeList">
-                <li><a href="#">Ram kumar - Ramkumar@22119.com</a></li>
-                <li><a href="#">Kevin - Kevin@22314.com</a></li>
+            <h2>Employee Directory</h2>
+            <ol id="employeeDirectory">
+                <li><a href="#">Durga Prasad Goturi - durgagoturi@gmail.com</a></li>
+                <li><a href="#">Kevin Smith - kevin@company.com</a></li>
             </ol>
         </section>
 
+        <!-- Employee Table -->
         <section class="table-section">
             <h2>Employee Details</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Full Name</th>
                         <th>Employee ID</th>
                         <th>Department</th>
                         <th>Profile Picture</th>
@@ -68,34 +71,26 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Ram kumar</td>
-                        <td>22119</td>
+                        <td>Durga Prasad Goturi</td>
+                        <td>707535</td>
                         <td>IT</td>
-                        <td><img src="https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp" alt="Ram's Profile" srcset="" width="50" height="50"></td>
+                        <td><img src="https://example.com/durga-profile-pic.jpg" alt="Durga's Profile" width="50" height="50"></td>
                     </tr>
                     <tr>
-                        <td>kevin</td>
+                        <td>Kevin Smith</td>
                         <td>22314</td>
                         <td>HR</td>
-                        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyW_r0sNTiVJmVlyHNrEN97SMJ4of9eh0erw&s" alt="Ram's Profile" srcset="" width="50" height="50"></td>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyW_r0sNTiVJmVlyHNrEN97SMJ4of9eh0erw&s" alt="Kevin's Profile" width="50" height="50"></td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
+        <!-- Company Location -->
         <section class="map-section">
-            <h2>Company Location</h2>
+            <h2>Our Company Location</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d372.8399567887925!2d78.389991!3d17.498099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e1!3m2!1sen!2sin!4v1727274180298!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-<!-- *Example CSS Styles*: -->
-<!-- css -->
