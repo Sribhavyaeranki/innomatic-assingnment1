@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgray;
+    background-color: #f4f1de; /* Light cream background */
     margin: 0;
     padding: 20px;
 }
@@ -18,20 +18,20 @@ body {
 /* Header */
 h1 {
     text-align: center;
-    color: skyblue;
+    color: #006d77; /* Dark teal */
     margin-bottom: 20px;
 }
 
 /* Form Section */
 .form-section {
-    background-color: lightgray;
+    background-color: #f4f1de; /* Light cream */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .form-section h2 {
-    color: skyblue;
+    color: #006d77; /* Dark teal */
 }
 
 .form-group {
@@ -53,7 +53,7 @@ h1 {
 }
 
 button {
-    background-color: skyblue;
+    background-color: #006d77; /* Dark teal */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -62,23 +62,23 @@ button {
 }
 
 button:hover {
-    background-color: darkblue;
+    background-color: #ffb703; /* Light orange */
 }
 
 /* Employee Directory Section */
 .list-section {
-    background-color: lightgray;
+    background-color: #f4f1de; /* Light cream */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .list-section h2 {
-    color: skyblue;
+    color: #006d77; /* Dark teal */
 }
 
 #employeeDirectory a {
-    color: darkblue;
+    color: #006d77; /* Dark teal links */
     text-decoration: none;
 }
 
@@ -88,14 +88,14 @@ button:hover {
 
 /* Employee Table Section */
 .table-section {
-    background-color: lightgray;
+    background-color: #f4f1de; /* Light cream */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .table-section h2 {
-    color: skyblue;
+    color: #006d77; /* Dark teal */
 }
 
 table {
@@ -109,12 +109,12 @@ table th, table td {
 }
 
 table th {
-    background-color: skyblue;
+    background-color: #006d77; /* Dark teal */
     color: white;
 }
 
 table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #e6ebe0; /* Soft gray for even rows */
 }
 
 img {
@@ -123,13 +123,13 @@ img {
 
 /* Map Section */
 .map-section {
-    background-color: lightgray;
+    background-color: #f4f1de; /* Light cream */
     padding: 20px;
     border-radius: 10px;
 }
 
 .map-section h2 {
-    color: skyblue;
+    color: #006d77; /* Dark teal */
 }
 
 iframe {
